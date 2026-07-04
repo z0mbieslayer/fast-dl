@@ -1,0 +1,78 @@
+/*****************************************
+**************DWARF FORTRESS**************
+*****************************************/
+
+@font-face {
+font-family: "dwarffortress";
+src: url("https://file.garden/agidZ3rh-Qtf3i_a/MorePerfectDOSVGA.ttf") format("truetype");
+}
+
+body.master_3958 {
+background-image: url('https://file.garden/agidZ3rh-Qtf3i_a/dfback_world.jpg');
+}
+
+.master_3958 #logo {
+background-image: url('https://file.garden/agidZ3rh-Qtf3i_a/dflogo_shadow.png');
+background-position: center center;
+background-size: 40%;
+}
+
+.master_3958 #menu { /* Menu font size & color background */
+font-family: dwarffortress;
+font-size: 1.7em;
+font-weight: normal;
+background: rgba(28, 49, 69, 0.6);
+}
+
+.master_3958 #menu ul { /* Menu lenght size */
+max-width: 1100px;
+margin-top: -0px;
+}
+
+.master_3958 #menu ul a { /* Menu font color */
+color: transparent;
+padding: 5px 15px;
+text-shadow: none !important;
+background: linear-gradient(#fff 50%,#000 100%);
+background-clip: text;
+
+}
+
+.master_3958 #menu ul a:hover { /* Menu font hover color */
+color: transparent;
+padding: 5px 15px;
+text-shadow: none !important;
+background: linear-gradient(#00FFFF 50%,#000 100%);
+background-clip: text;
+}
+
+.master_3958 .alertbar a { /* "Toolbox" and "Refresh data" color */
+color: #fff;
+text-shadow: 1px 1px 2px #000
+}
+
+.master_3958 #userinfo { /* Search fields background */
+background: rgba(28, 49, 69, 0.6)
+}
+
+.master_3958 #userinfo #userinfo_username .donateico { /* Donate button position */
+margin-top: 32px;
+margin-left: -5px;
+display: inline-block;
+}
+
+.master_3958 #userinfo #userinfo_username .donateico a { /* Donate button color */
+font-family: dwarffortress;
+color: rgba(0, 0, 0, 0);
+font-size: 1.7em;
+text-shadow: none !important;
+background: linear-gradient(#00FF00 60%,#3f3f3f 100%);
+background-clip: text;
+}
+
+.master_3958 #userinfo #userinfo_username .donateico a:hover { /* Donate button hover color */
+color: transparent;
+text-shadow: none !important;
+background: linear-gradient(#00FFFF 50%,#000 100%);
+background-clip: text;
+}
